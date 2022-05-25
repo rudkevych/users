@@ -1,8 +1,11 @@
-import './App.css';
+import styles from './App.css';
 import React from "react";
+import UserForm from "./components/Users/UserForm";
 
 function App() {
-  return <div>Hello App</div>;
+    return (
+        <UserForm/>
+    )
 }
 
 export default App;
